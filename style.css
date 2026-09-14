@@ -4,12 +4,16 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 body{
     background-image: url(hero.png);
     background-size:100%;
     background-repeat: no-repeat;
     background-color:white;
-    margin-bottom: 320px;
+    margin: 0;
     
 }
 
@@ -131,7 +135,7 @@ body, nav {
     border-radius: 25px;
     border: none;
     box-shadow: 0 5px 10px turquoise;
-    position: fixed;
+    position: sticky;
     bottom: 40px;
     left: 10px;
     font-size: 16px;
@@ -177,6 +181,7 @@ body, nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
+    justify-content: center;
 }
 
 
@@ -206,8 +211,8 @@ body, nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 100px;
+    width: 150px;
+    height: 70px;
     border-radius: 25px;
     border: none;
     box-shadow: 0 5px 10px whitesmoke;
@@ -223,4 +228,21 @@ body, nav {
 .card button:hover {
     transform: scale(1.05);
     filter: brightness(80%);
+}
+
+
+
+.actBut {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #062B45;
+    color: white;
+    margin: auto 0;
+    padding: 20px;
+    margin-top: 40px;
 }
