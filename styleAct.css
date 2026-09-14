@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+   
+    
+    
+    background-color:white;
+    margin: 0;
+    
+}
+
+
+h1, h2 {
+    font-family: "Playfair Display", serif;
+}
+
+body, nav {
+    font-family: "Montserrat", sans-serif;
+}
+
+.hat {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 55px;
+
+    padding: 0 30px;
+
+    display: flex;
+    align-items: center;
+
+    background-color: deepskyblue;
+
+    z-index: 1000;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+     font-family: "Montserrat", sans-serif;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.brand h1 {
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 21px;
+    margin-left: auto;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.nav a:hover{
+    transform: scale(1.1);
+    color: blueviolet;
+}
+
+.actividadesPage {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E8F4F8;
+    padding: 60px;
+    box-shadow: 10px 10px 15px cornsilk;
+    border-radius: 5px;
+
+}
+
+.head {
+    text-align: center;
+    margin-bottom: 60px;
+    color: #062B45;
+    
+}
+
+.nav a.active {
+    color: #242fca;
+    border-bottom: 2px solid #242fca;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.card {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    background-color: turquoise;
+    border-radius: 15px;
+    padding: 15px    ;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img {
+    width: 360px;
+    height: 220px;
+    margin: auto 0;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.card button {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 70px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0 5px 10px whitesmoke;
+    
+    font-size: 16px;
+    background-color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(0, 0, 0);
+    transition: all .3s ease;
+
+}
+
+.card button:hover {
+    transform: scale(1.05);
+    filter: brightness(80%);
+}
+
+
+
+.actBut {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    text-decoration: none;
+}
