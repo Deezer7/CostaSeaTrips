@@ -21,6 +21,11 @@ app.get("/about", function(request, responce){
 app.get("/faq", function(request, responce){
     responce.sendFile(__dirname + "/FAQ.html")
 })
+
+app.get("/actividades/paseo", function(request, responce){
+    responce.sendFile(__dirname + "/paseoEnBarco.html")
+})
+
 app.listen(3000, function() {
     console.log("Server running on port 3000")
 })
