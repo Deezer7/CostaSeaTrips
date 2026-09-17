@@ -162,3 +162,24 @@ body, nav {
     gap: 20px;
     text-decoration: none;
 }
+
+footer {
+    background-color: #062B45;
+    color: white;
+    margin: auto 0;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
+ 
+.head {
+    
+    margin-top: 50px;
+    background-image: url(paseito.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 800px;
+    
+}
