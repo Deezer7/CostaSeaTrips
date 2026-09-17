@@ -182,6 +182,7 @@ body, nav {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
     justify-content: center;
+    gap: 30px  ;
     margin: auto;
 }
 
@@ -249,7 +250,7 @@ footer {
 }
 
 
-@media (min-width: 1025px) and (max-width: 1440px) {
+@media (min-width: 1080px) and (max-width: 1440px) {
 
     .Whatsappbutton {
         display: none;
@@ -267,7 +268,7 @@ footer {
     margin: auto;
 }
 }
-@media (max-width: 768px) {
+@media (max-width: 740px) {
     .nav {
         display: none;
 
@@ -286,17 +287,18 @@ footer {
 
 }
     .card{
-        width: 300px;
-        height: 400px;
+        width: 250px;
+        height: 430px;
         display: flex;
         background-color: turquoise;
         border-radius: 15px;
-        padding: 15px    ;
+        
         flex-direction: column;
         align-items: center;
+        margin: auto;
     }
     .card img {
-    width: 260px;
+    width: 240px;
     height: 120px;
     margin: auto 0;
     padding-bottom: 10px;
@@ -338,7 +340,7 @@ footer {
 
     .mainPageButtons button {
     
-    width: 170px;
+    width: 160px;
     height: 70px;
     margin-top: 30px;
     margin-left: 10px;
@@ -380,4 +382,116 @@ footer {
 
     
 
+}
+
+@media (min-width:760px) and (max-width: 860px){
+    .nav {
+        display: none;
+
+    }
+    .Whatsappbutton{
+        display: none;
+    }
+    .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 30px  ;
+    margin: auto;
+
+}
+    .card{
+        width: 250px;
+        height: 430px;
+        display: flex;
+        background-color: turquoise;
+        border-radius: 15px;
+        
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    .card img {
+    width: 240px;
+    height: 120px;
+    margin: auto 0;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+    .card button {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 5px 10px whitesmoke;
+    
+    font-size: 16px;
+    background-color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(0, 0, 0);
+    transition: all .3s ease;
+
+}
+
+.card button:hover {
+    transform: scale(1.05);
+    filter: brightness(80%);
+}
+
+    body{
+    background-image: url(hero.webp);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-color:white;
+    margin: 0;
+    
+}
+
+    .mainPageButtons button {
+    
+    width: 160px;
+    height: 70px;
+    margin-top: 30px;
+    margin-left: 10px;
+     font-family: "Montserrat", sans-serif;
+     font-size: 17px;
+    transition: all .3s ease;
+    
+
+    
+    
+}
+.mainPageButtons :hover {
+    transform: scale(1.1);
+    filter: brightness(80%);
+
+}
+
+
+.actividadesPage {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E8F4F8;
+    padding: 60px;
+    box-shadow: 10px 10px 15px cornsilk;
+    border-radius: 5px;
+
+}
+ h1 {
+    font-size: 32px;
+
+ }
+
+ h2 {
+    font-size: 29px;
+ }
 }
