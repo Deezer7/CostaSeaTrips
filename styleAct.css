@@ -173,7 +173,7 @@ footer {
 
 
  
-.head {
+.head1 {
     
     margin-top: 50px;
     background-image: url(paseito.jpg);
@@ -181,5 +181,43 @@ footer {
     background-size: cover;
     width: auto;
     height: 800px;
+
     
+}
+
+.title {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 40px;
+    color:aqua;
+    font-size: 21px;
+
+}
+
+.reserva {
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 20px;
+    background-color:aqua;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 10px 10px#E8F4F8;
+    
+}
+
+.reserva button {
+
+    border: none;
+    background-color: rgb(126, 194, 126);
+    width: 70px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.reserva select {
+    border: none;
+    background-color: lightblue;
+    width: 70px;
+    height: 35px;
+    border-radius: 10px;
 }
