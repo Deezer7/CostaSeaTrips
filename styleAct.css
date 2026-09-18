@@ -212,6 +212,7 @@ footer {
     width: 70px;
     height: 35px;
     border-radius: 10px;
+    transition: all .3s ease;
 }
 
 .reserva select {
@@ -220,4 +221,68 @@ footer {
     width: 70px;
     height: 35px;
     border-radius: 10px;
+}
+
+.reserva button:hover {
+    transform: scale(1.05);
+    filter:brightness(50%)
+}
+
+
+.infoconteiner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 75%;
+    height: fit-content;
+    padding: 20px;
+    align-items: center;
+}
+
+.incluye {
+    display: inline-block;
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 15px;
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 20px;
+    vertical-align: top;
+    
+}
+
+.expi {
+    display: inline-block;
+    background-color:aliceblue ;    
+    padding: 15px;
+    border-radius: 15px;
+    width: 400px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 20px;
+    vertical-align: top;
+    
+}
+
+.galery {
+    display: inline-block;
+     background-color:aliceblue ;    
+    padding: 15px;
+    border-radius: 15px;
+    width: 900px;
+    height: 500px;
+    margin-left: 20px;
+    margin-top: 20px;
+    vertical-align: top;
+}
+.info {
+    display: inline-block;
+    background-color:aliceblue ;    
+    padding: 15px;
+    border-radius: 15px;
+    width: 400px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 20px;
+    vertical-align: top;
 }
