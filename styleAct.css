@@ -229,60 +229,148 @@ footer {
 }
 
 
-.infoconteiner {
+.infocontainer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 75%;
     height: fit-content;
     padding: 20px;
     align-items: center;
+    justify-content: center;
+    gap: 100px;
+    background-color: #062B45;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 50px;
 }
 
 .incluye {
-    display: inline-block;
+    display: block;
     background-color: aliceblue;
     padding: 15px;
     border-radius: 15px;
     width: 400px;
     height: 300px;
-    margin-top: 50px;
-    margin-left: 20px;
-    vertical-align: top;
+    
     
 }
 
 .expi {
-    display: inline-block;
+    display: block;
     background-color:aliceblue ;    
     padding: 15px;
     border-radius: 15px;
     width: 400px;
     height: 300px;
-    margin-left: 50px;
-    margin-top: 20px;
-    vertical-align: top;
+    
     
 }
 
 .galery {
-    display: inline-block;
-     background-color:aliceblue ;    
+    display: grid;
+    background-color:#062B45 ;    
     padding: 15px;
+    padding-bottom: 25px;
     border-radius: 15px;
-    width: 900px;
-    height: 500px;
-    margin-left: 20px;
-    margin-top: 20px;
-    vertical-align: top;
+    width: 75%;
+    height: fit-content;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    color: #E8F4F8;
+    
+
+    
+    
+}
+
+.fotoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.slide {
+    width: 600px;
+    text-align: center;
+}
+
+.galleryImg {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+    display: block;
+    transition: opacity 0.3s ease;
+}
+
+.galleryText {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.prev,
+.next {
+    font-size: 40px;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.galleryImg.fade {
+    opacity: 0;
 }
 .info {
-    display: inline-block;
+    display: block;
     background-color:aliceblue ;    
     padding: 15px;
     border-radius: 15px;
     width: 400px;
     height: 300px;
-    margin-left: 50px;
+    
+}    
+
+.reserva1 {
+
+    background-color:#062B45;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 10px 10px#E8F4F8;
+    width: 75%;
+    height: fit-content;
+    padding-bottom: 40px;
+    color: aliceblue;
+    text-align: center;
+
+    margin: auto;
     margin-top: 20px;
-    vertical-align: top;
+
+
+
+}
+
+.reserva1 button {
+
+    border: none;
+    background-color: rgb(126, 194, 126);
+    width: 70px;
+    height: 35px;
+    border-radius: 10px;
+    transition: all .3s ease;
+}
+
+
+.reserva1 select {
+    border: none;
+    background-color: lightblue;
+    width: 70px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.reserva1 button:hover {
+    transform: scale(1.05);
+    filter:brightness(50%)
 }
